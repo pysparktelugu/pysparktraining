@@ -1,0 +1,14 @@
+{
+	"name": "ADLS_GEN1_LS",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDataLakeStore",
+		"typeProperties": {
+			"dataLakeStoreUri": "https://pysparkadlsgen1.azuredatalakestore.net/webhdfs/v1",
+			"tenant": "0c6d7811-6855-4151-ab14-b39823c307dc",
+			"subscriptionId": "4e4d082a-03fb-4b5f-8585-20f24cc02800",
+			"resourceGroupName": "rg_dev"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/linkedservices"
+}

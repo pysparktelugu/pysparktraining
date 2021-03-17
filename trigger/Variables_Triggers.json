@@ -1,0 +1,24 @@
+{
+	"name": "Variables_Triggers",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "activities_pipeline",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 5,
+				"startTime": "2021-01-28T14:47:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
